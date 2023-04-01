@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import { useState } from 'react';
+import React from 'react'
+// import './App.css';
+import Destination from './Destination';
+import './Destination.css'
+// import Feedback from './Feedback';
 
 function App() {
+  // const [openReview, setOpenReview] = useState(false);
+
+  // const handleReview=()=>{
+  //   if(openReview){
+  //     setOpenReview(false);
+  //   } else {
+  //     setOpenReview(true);
+  //   }
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <button onClick={handleReview}>Open review</button>
+      {openReview && (<Feedback handleClick={handleReview}/>)} */}
+      {/* <Feedback /> */}
+      <Destination />
     </div>
+    
   );
 }
 

@@ -1,0 +1,186 @@
+.destinationDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cardDiv{
+    position: absolute;
+    top: 90%;
+    height: 1000px;
+    width: 85%;
+    background-color: rgb(251 252 253);
+    box-shadow: 0px 0px 20px 28px rgb(251 252 253);
+    padding: 1%;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.whereToGoDiv{
+    display: flex;
+    width: 100%;
+}
+
+.whereDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 5px;
+}
+
+.whereDescript{
+    padding: 2px;
+    width: 40%;
+}
+
+.whereImg{
+    opacity: 0.7;
+    position: absolute;
+    align-self: center;
+    top: 10%;
+    width: 50%;
+}
+
+.whereText{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+@media screen and (max-width: 900px){
+    .whereText{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    .whereText{
+        font-size: 35px;
+    }
+}
+
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.stateSelect{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.headerDestination{
+    position: absolute;
+    top: 36%;
+    color: white;
+    background: #00000042;
+    font-size: 33px;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 41px 33px #00000042;
+}
+
+@media screen and (max-width: 500px){
+    .whereText{
+        font-size: 30px;
+    }
+    .headerDestination{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px){
+    .whereText{
+        font-size: 20px;
+    }
+    .headerDestination{
+        font-size: 30px;
+    }
+}
+
+.imagePlaceHolder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.containerHolder{
+    position: relative;
+    width: 21%;
+    margin-bottom: 15%;
+}
+.containerHolder::after{
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
+.holder1{
+    position: relative;
+}
+.holder1Image{
+    position: absolute;
+    /* background: green; */
+    width: 100%;
+}
+
+.holder1Image > img {
+    width: 100%;
+}
+.holder1Image::after{
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
+
+.holder1Info{
+    position: absolute;
+    top: 75%;
+    width: 85%;
+    background: rgb(255, 255, 234);
+    box-shadow: 0px 0px 14px 0px black
+}
+.holder1Info::after{
+    display: block;
+    content: '';
+    padding-top: 0%;
+}
+
+.hInfo{
+    overflow: hidden;
+    margin-top: 10%;
+    color: orange;
+    padding-left: 6%;
+    font-weight: 500;
+    border-left: 2px solid orange;
+    text-transform: uppercase;
+}
+.hInfo1{
+    overflow: hidden;
+    margin-top: 1%;
+    /* color: orange; */
+    padding-left: 6%;
+    padding-bottom: 6%;
+    font-weight: 500;
+    font-size: 18px;
+    /* border-left: 2px solid orange; */
+    text-transform: uppercase;
+}
+.hInfo2{
+    overflow: hidden;
+    margin-top: 1%;
+    margin: 1% 6%;
+    /* color: orange; */
+    padding-top: 6%;
+    font-weight: 500;
+    /* font-size: 18px; */
+    border-top: 2px solid orange;
+    text-transform: uppercase;
+}

@@ -1,7 +1,8 @@
-//Destination Component
+//*******Destination Component**********
+
 import React from 'react'
-import Destination from './Destination';
-import './Destination.css'
+import Destination from './Components/Destination/Destination';
+import './Components/Destination/Destination.css'
 
 function App() {
   return (
@@ -15,13 +16,12 @@ function App() {
 export default App;
 
 
-//Feedback Component
-
+//*********Feedback Component***********
 
 // import { useState } from 'react';
 // import React from 'react'
-// import './App.css';
-// import Feedback from './Feedback';
+// import './Components/Feedback/Feedback.css'
+// import Feedback from './Components/Feedback/Feedback';
 
 // function App() {
 //   const [openReview, setOpenReview] = useState(false);
